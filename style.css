@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none !important;
+    list-style: none !important;
+}
+
+:root {
+    --gray: #212529;
+}
+
+.nav {
+    background-color: #212529;
+}
+
+.main_top_container {
+    background-color: var(--gray);
+}
+
+.main_top_container h1 {
+    color: white;
+}
+
+.main_top_container {
+    padding: 100px;
+}
+
+.payment_container .card {
+    padding: 48px;
+}
+
+.payment_container {
+    background-color: #F8F9FA;
+    padding: 100px 0;
+}
+
+.payment_container .titleTop {
+    font-size: 14px;
+    font-weight: 600;
+    color: #6c757d;
+}
+
+.payment_container .card {
+    width: 374px;
+}
+
+.payment_container .card button {
+    display: block;
+    width: 100% !important;
+}
+
+.payment_container .title {
+    font-size: 56px;
+    font-weight: 700;
+}
+
+.payment_container .title span {
+    font-size: 16px;
+}
+
+.customer_container {
+    padding: 100px 0;
+}
+
+.customer_container .titleBottom {
+    font-size: 20px;
+}
+
+form {
+    width: 588px;
+    margin: 0 auto;
+}
+
+.input_container {
+    padding: 100px 0;
+    background-color: #F8F9FA;
+}
+
+.input_container .box {
+    width: 64px;
+    height: 64px;
+    background-color: #126EFD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 32px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+form button {
+    width: 100%;
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 778px) {
+    form {
+        width: 388px;
+        margin: 0 auto;
+    }
+
+    .main_top_container h1 {
+        color: white;
+        font-size: 30px !important;
+    }
+
+    .main_top_btns {
+        flex-direction: column;
+    }
+
+    .main_top_container p {
+        font-size: 18px !important;
+    }
+    .additive_container .box {
+        width: 350px !important;
+    }
+}
+
+footer {
+    height: 120px;
+    width: 100%;
+    background-color: #212529;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    color: white;
+}
